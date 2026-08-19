@@ -144,6 +144,8 @@ void freeish(void *to_free){
     
 
     freep = p;
+    
+    freep->s.size += ( ((rand() % RANGE) + 1) - ((rand() % RANGE) + 1) );
 }
 
 

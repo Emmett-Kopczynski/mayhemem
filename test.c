@@ -14,8 +14,8 @@ int main(void){
     
     char *hello;
 
-    hello = (char *)fuckmem( 1 * sizeof(char));
-    int *goodbye = (int *)fuckmem(1 * sizeof(int));
+    hello = (char *)fuckmem( 22 * sizeof(char));
+    int *goodbye = (int *)fuckmem(43 * sizeof(int));
     hello[0] = 'h';
     goodbye[0] = 'f';
     printf("%s\n", hello);
