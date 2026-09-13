@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -g
 
-FUCKMEMOUT = fuckmem.o
+OUT = mayhemem.o
 EXAMPLEOUT = brokenex.out
 
 default: build_all
@@ -14,7 +14,7 @@ buildex:
 	$(CC) $(CFLAGS)  example/main.c example/utils.c -o $(EXAMPLEOUT)
 
 build: 
-	$(CC) $(CFLAGS) -c src/fuckmem.c  -o $(FUCKMEMOUT)
+	$(CC) $(CFLAGS) -c src/fuckmem.c  -o $(OUT)
 
 
 c: clean
