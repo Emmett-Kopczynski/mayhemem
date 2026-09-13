@@ -20,5 +20,5 @@ build:
 c: clean
 clean: clear
 clear:
-	rm $(FUCKMEMOUT)
+	rm $(OUT)
 	rm $(EXAMPLEOUT)
