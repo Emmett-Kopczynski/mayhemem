@@ -7,4 +7,4 @@ mayhemem is a memory allocation function for c similar to malloc, but it gives a
 I wrote this after reading CH 8.7 of the second edition of the book "The C Programming Language" by Brian W. Kernighan and Dennis M. Ritchie where they go over how memory allocators like malloc work, mayhemem works very similarly to how the malloc function in that chapter does.
 <br>
 <br>
-I ended up writing fuckmem to test my knowledge on the subject and practice it in a fun/stupid way
+I ended up writing mahyemem to test my knowledge on the subject and practice it in a fun/stupid way
